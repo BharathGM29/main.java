@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+double dividend, divisor,q,r;
+cout<<"Enter dividend"<<endl;
+cin>>dividend;
+cout<<"Enter divisor"<<endl;
+cin>>divisor;
+q=dividend/divisor;
+r=dividend % divisor;
+cout<<"q:: "<<q<<endl;
+cout<<"r:: "<<r<<endl;
+return 0;
+}
